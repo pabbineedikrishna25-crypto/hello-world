@@ -15,6 +15,13 @@ int main()
 	case  '-':c=a-b;
 	          printf("sub=%d",c);
 	          break;
+    case '*':c=a*b;
+		     printf("mut of two=%d",c);
+		     break; 
+   case '/':c=a/b;
+		    printf("div of two =%d",c);
+		     break;
 }  
 	return 0;			 		           
 }
+
