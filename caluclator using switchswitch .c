@@ -5,7 +5,7 @@ int main()
 	char ch;
 	printf("enter a &b values");
 	scanf(" %d %d",&a,&b);
-	printf("enter your choice +add -sub ");
+	printf("enter your choice +add -sub * mut /div ");
 	scanf(" %c",&ch);
 	switch(ch)
 	{
@@ -21,7 +21,9 @@ int main()
    case '/':c=a/b;
 		    printf("div of two =%d",c);
 		     break;
+	default :printf("invalid choice");	
 }  
 	return 0;			 		           
 }
+
 
